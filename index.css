@@ -68,6 +68,7 @@ margin-left: 25%;
 }
 button:hover{
     cursor: pointer;
-    background-color: red;
+    background-color:#e33058;
+
     transition: 0.7s;
 }
