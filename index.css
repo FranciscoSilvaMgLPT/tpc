@@ -1,0 +1,73 @@
+*{
+    background-color: #B25169;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.promos{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #4D3B52;
+    color: white;
+}
+
+h4, h3, h2, h1, ul, li, span{
+    background: transparent;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.title{
+    margin: 40px;
+    background: transparent;
+    text-align: center;
+}
+
+.title h2{
+    padding-bottom: 20px;
+}
+
+.price{
+    font-size: 30px;
+    text-align: center;
+}
+
+li{
+    color: red; 
+    padding-bottom: 15px;
+}
+span{
+    color: white;
+}
+
+button{
+    background: transparent;
+border: 1px crimson solid;
+color: white;
+padding: 10px 50px;
+border-radius: 10px;
+margin-left: 25%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: 0.7s;
+}
